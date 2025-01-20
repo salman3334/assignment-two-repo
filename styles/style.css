@@ -1,0 +1,97 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.work-sans-font> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+.logo{
+    position: x 1;
+}
+
+.navbar{
+    display: flex;
+    
+  
+}
+
+.nav-links{
+ display: flex;
+}
+.display-flex{
+    display: flex;
+}
+.text-orange{
+    color: orange;
+
+}
+.text-sky-blue{
+color: skyblue;
+}
+.clor-blue{
+    color: aqua;
+}
+.color-bluee{
+    color: blueviolet;
+}
+.nav-item{
+list-style: none;
+margin-right: 20px;
+justify-content: space-between;
+
+}
+.nav-items{
+    list-style: none;
+    margin-right: 1px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 290;
+}
+
+.btn-primary{
+    margin-right: 50px;
+    display: flex;
+}
+.brand{
+    
+}
+
+.banner-content{
+    margin-left: auto;
+}
+
+.banner-title{
+    font-weight: 600px;
+    font-size: 60px;
+}
+.banner.photo{
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+}
+.text-black{
+    color: black;
+}
+
+.btn-primaryy{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 576px;) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
