@@ -120,6 +120,17 @@ position: relative;
     font-weight: 600;
     border: none;
 }
+
+..btn-primaryyy{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
 .btn-colorr{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -150,6 +161,55 @@ position: relative;
     display: flex;
 }
 
+   .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+     height: 50px;
+     border-radius: 16px;
+   }
+
+  .bg-colorrr{
+    background-color: #ffffff;
+  }
+
+  .sory-11{
+    height: 200px;
+    width: 100%;
+    margin-top: 5px auto;
+    gap: 5px 5px 5px;
+  }
+
+.storys{
+
+    margin-right: 5px;
+}
+
+.story{
+    background-color: #ffffff;
+  margin-top: 100px;
+  gap: 5px aut;
+  border-radius: 16px 16px 16px;
+  
+
+}
+
+.bd-radius{
+    border-radius: 16px 16px;
+}
+.background-color{
+    background-color: #fea301;
+}
+.centerr{
+    text-align: center;
+}
+
+.bg-color{
+    background-image: url('../B11-A2-Kids-School-main/assets/bg.png');
+
+}
+ 
+ }
 
 @media screen and (max-width: 576px;) {
     .navbar, .nav-links,{
