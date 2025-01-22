@@ -169,14 +169,19 @@ position: relative;
      border-radius: mixed;
      background-color: #fea30f;
      
+     
    }
+
+  .secondary-bg{
+    background-color: #01acfd;
+  }
 
   .bg-colorrr{
     background-color: #ffffff;
   }
 
   .sory-11{
-    height: 200px;
+    height: 400px;
     width: 100%;
     margin-top: 5px auto;
     gap: 5px 5px 5px;
@@ -213,7 +218,33 @@ position: relative;
 
 }
  
+.infront{
+    text-align: center;
+}
+
+ .secondary-bg{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+
+    
  }
+
+ .footer-column{
+    width: 50%;
+    justify-content: space-between;
+ }
+
+ .bg-text{
+    color: #ffffff;
+ }
+
+.nonee {
+    list-style: none;
+}
+
 
 @media screen and (max-width: 576px;) {
     .navbar, .nav-links,{
