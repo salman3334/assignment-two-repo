@@ -166,7 +166,9 @@ position: relative;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
      height: 50px;
-     border-radius: 16px;
+     border-radius: mixed;
+     background-color: #fea30f;
+     
    }
 
   .bg-colorrr{
@@ -198,13 +200,15 @@ position: relative;
     border-radius: 16px 16px;
 }
 .background-color{
-    background-color: #fea301;
+    
+    background-image: url('../B11-A2-Kids-School-main/assets/bg.png');
 }
 .centerr{
     text-align: center;
 }
 
 .bg-color{
+    background-color: #fea30;
     background-image: url('../B11-A2-Kids-School-main/assets/bg.png');
 
 }
